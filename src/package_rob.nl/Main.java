@@ -5,11 +5,32 @@ public class Main {
 
 //        make a new Lion
 
-        Lion LionKlaas=new Lion();
-        LionKlaas.makeNoise();
+        Lion lionKlaas = new Lion();
+        lionKlaas.makeNoise();
 
-        Feline felineTest=new Feline();
+        Feline felineTest = new Feline();
         felineTest.roam();
+
+        Tiger tigertje = new Tiger();
+        tigertje.eat();
+        tigertje.makeNoise();
+
+        Cat catje = new Cat();
+        catje.eat();
+        catje.makeNoise();
+
+        Hippo dikkeHippo = new Hippo();
+        dikkeHippo.eat();
+        dikkeHippo.makeNoise();
+
+        Wolf wolfje = new Wolf();
+        wolfje.makeNoise();
+        wolfje.eat();
+        wolfje.roam();
+
+        Dog dogje=new Dog();
+        dogje.makeNoise();
+        dogje.eat();
 
 
 
@@ -17,8 +38,13 @@ public class Main {
 //        make array van Animals
 
 
-        Animal[] ArrayFromAnimals = new Animal[5];
-        ArrayFromAnimals [0]= LionKlaas;
+        Animal[] ArrayFromAnimals = new Animal[6];
+        ArrayFromAnimals[0] = lionKlaas;
+        ArrayFromAnimals[1] = tigertje;
+        ArrayFromAnimals[2] = catje;
+        ArrayFromAnimals[3] = dikkeHippo;
+        ArrayFromAnimals[4]= wolfje;
+        ArrayFromAnimals[5]=dogje;
 
 
     }
